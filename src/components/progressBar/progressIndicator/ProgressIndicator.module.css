@@ -1,0 +1,19 @@
+.progressIndicatorContainer {
+  width: 150px;
+  height: 6px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+}
+
+.progressIndicator {
+  width: 120px;
+  height: 6px;
+  background-color: #9ecb44;
+  border-radius: 10px;
+}
+
+@media screen and (min-width: 580px) {
+  .progressIndicatorContainer {
+    width: 280px;
+  }
+}

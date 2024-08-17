@@ -1,0 +1,107 @@
+.planningPageContainer {
+  padding-top: 20px;
+}
+.planningHeaderContainer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.planForWeekContainer {
+  text-align: center;
+}
+.planningTitle {
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.04em;
+  color: #000000;
+}
+.planningWeek {
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.2em;
+}
+
+.addTaskContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.motivationalText {
+  font-weight: 500;
+  font-size: 1.25;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  margin-right: 20px;
+
+  color: #a6abb9;
+}
+
+/*points mobile container*/
+.pointsMobileContainer {
+  position: relative;
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  background-color: #f1f1f1;
+}
+
+/* @media screen and (max-width: 579px) {
+} */
+
+@media screen and (min-width: 580px) {
+  .planningPageContainer {
+    padding-top: 40px;
+  }
+  .planningHeaderContainer {
+    margin-bottom: 40px;
+  }
+
+  .planningTitle {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .planForWeekContainer {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .planningPageContainer {
+    padding-top: 67px;
+  }
+  .planningHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 27px;
+  }
+  .planForWeekContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-bottom: 0;
+  }
+}
+
+/* theme switch  */
+
+.darkBg {
+  background-color: rgba(82, 82, 100, 0.541);
+}
+
+.themeDarkText {
+  color: #fff;
+}
+
+.darkCardBg {
+  background-color: rgba(184, 184, 211, 0.541);
+}
+
+.darkIconFill {
+  fill: #fff;
+}

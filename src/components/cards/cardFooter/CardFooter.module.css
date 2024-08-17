@@ -1,0 +1,10 @@
+.cardFooter {
+  height: 68px;
+  background-color: #ffbc33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+
+  position: relative;
+}

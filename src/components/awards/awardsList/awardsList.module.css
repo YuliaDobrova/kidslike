@@ -1,0 +1,261 @@
+.Awards__LoaderContainer {
+  height: 52px;
+}
+/* @media screen and (min-width: 580px) {
+  .Awards__LoaderContainer {
+    height: 52px;
+  }
+} */
+
+.Awards__List {
+  /* margin-top: 30px; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -10px;
+  margin-bottom: -10px;
+}
+@media screen and (min-width: 580px) {
+  .Awards__List {
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+}
+
+.Awards__ListItem {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
+}
+.Awards__ListItem:hover {
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (min-width: 580px) {
+  .Awards__ListItem {
+    flex-basis: calc((100% / 2) - 40px);
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+}
+@media screen and (min-width: 1180px) {
+  .Awards__ListItem {
+    flex-basis: calc((100% / 4) - 80px);
+  }
+}
+
+.Awards__ListItemWrapper {
+  width: 280px;
+  height: 262px;
+}
+
+.Awards__ListImage {
+  width: 280px;
+  height: 194px;
+  background-color: #cccccc;
+  border-radius: 6px 6px 0px 0px;
+}
+.Awards__ListFooter {
+  position: relative;
+  width: 280px;
+  height: 68px;
+  background-color: #ffbc33;
+  border-end-start-radius: 6px;
+  border-end-end-radius: 6px;
+}
+.Awards__ListName {
+  position: absolute;
+  left: 20px;
+  top: 14px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.Awards__ListTextWrapper {
+  position: absolute;
+  left: 20px;
+  top: 34px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 18px;
+  width: 94px;
+  border-radius: 3px;
+  background-color: rgba(86, 121, 215, 1);
+}
+.Awards__ListText {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  display: block;
+  color: #ffffff;
+}
+
+/* SWITCH */
+.Switch {
+  display: flex;
+  /* align-items: center; */
+}
+
+.Switch__iconCheck {
+  position: absolute;
+  top: 30px;
+  left: 225px;
+  height: 18px;
+  width: 10px;
+  z-index: 3;
+}
+.Switch__iconSign {
+  position: absolute;
+  top: 25px;
+  left: 247px;
+  height: 18px;
+  width: 5px;
+  z-index: 3;
+  fill: white;
+}
+
+.Switch__control {
+  top: 25px;
+  right: -220px;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 40px;
+  height: 18px;
+  border-radius: 50em;
+  padding: 3px 0;
+}
+
+.Switch__toggle {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  height: 0;
+  width: 0;
+  pointer-events: none;
+}
+
+.Switch__track {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  color: transparent;
+  user-select: none;
+  background-color: #ff4965;
+  border-radius: inherit;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.Switch__marker {
+  position: relative;
+  background-color: white;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  z-index: 4;
+  pointer-events: none;
+  transform: translateX(3px);
+  transition: transform 50ms linear;
+}
+
+.Switch__toggle:checked + .Switch__track {
+  background-color: #8ec63f;
+}
+
+.Switch__toggle:checked ~ .Switch__marker {
+  transform: translateX(23px);
+}
+
+.is-hidden {
+  display: none;
+}
+
+/* ===========RUNNING STRING============== */
+
+.running__string {
+  color: #ffbc33;
+  font-weight: bold;
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.presents {
+  animation-name: changeRunColor;
+  animation-duration: 10000ms;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes changeRunColor {
+  0% {
+    color: orange;
+    text-shadow: grey;
+  }
+  10% {
+    color: red;
+    text-shadow: grey;
+  }
+
+  20% {
+    color: orange;
+    text-shadow: grey;
+  }
+
+  30% {
+    color: yellow;
+    text-shadow: grey;
+  }
+  40% {
+    color: yellowgreen;
+    text-shadow: grey;
+  }
+  50% {
+    color: red;
+    text-shadow: grey;
+  }
+
+  60% {
+    color: orange;
+    text-shadow: grey;
+  }
+
+  70% {
+    color: yellow;
+    text-shadow: grey;
+  }
+  80% {
+    color: yellowgreen;
+    text-shadow: grey;
+  }
+
+  90% {
+    color: rgba(86, 121, 215, 1);
+    text-shadow: grey;
+  }
+  100% {
+    color: orange;
+    text-shadow: grey;
+  }
+}

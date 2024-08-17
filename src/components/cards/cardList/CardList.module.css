@@ -1,0 +1,22 @@
+.cardListContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: -10px;
+  width: 100%;
+}
+
+@media screen and (min-width: 580px) {
+  .cardListContainer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -20px;
+    margin-left: -20px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .cardListContainer {
+  }
+}

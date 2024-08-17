@@ -1,0 +1,41 @@
+.container {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  letter-spacing: 0.08em;
+  color: #000000;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-left: 5px;
+  padding-right: 5px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+.boxShadowDark {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.363);
+}
+
+@media screen and (min-width: 580px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 610px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .container {
+    max-width: 1210px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .boxShadowDark {
+    box-shadow: none;
+  }
+}

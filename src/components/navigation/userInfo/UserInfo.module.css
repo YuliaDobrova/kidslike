@@ -1,0 +1,62 @@
+.user__name_container {
+  display: flex;
+  align-items: center;
+}
+
+.upp__letter {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #2196f3;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.letter {
+  text-align: center;
+  color: white;
+  margin-top: 3px;
+}
+
+.user__name {
+  font-size: 12px;
+  font-family: 700;
+  color: #858598;
+  border-right: 1px solid #858598;
+  padding-right: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 85px;
+}
+
+.user__logout_btn {
+  float: right;
+  border: none;
+  background-color: transparent;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.svg {
+  width: 18px;
+  height: 18px;
+}
+
+.svg:hover {
+  fill: #ffbc33;
+}
+
+.themeDarkText {
+  color: #fff;
+  border-color: #fff;
+}
+
+.darkIconFill {
+  fill: #ffbc33;
+}
+
+.darkIconFill:hover {
+  fill: #fff;
+}

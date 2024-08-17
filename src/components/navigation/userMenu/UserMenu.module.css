@@ -1,0 +1,18 @@
+@media screen and (min-width: 580px) {
+  .container {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.user__burger_menu_btn {
+  float: right;
+  border: none;
+  background-color: transparent;
+}
+
+@media screen and (min-width: 580px) {
+  .user__burger_menu_btn {
+    margin-right: 41px;
+  }
+}

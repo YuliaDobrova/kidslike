@@ -1,0 +1,20 @@
+.inputImageLabel {
+  cursor: pointer;
+}
+
+.inputImage {
+  position: absolute;
+  top: 98px;
+  visibility: hidden;
+}
+
+.modalTaskIcon {
+  position: absolute;
+  top: 98px;
+  right: 12px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modalTaskIcon:hover {
+  fill: #ffbc33;
+}

@@ -1,0 +1,134 @@
+[
+  {
+    "title": "Task 1",
+    "reward": 20,
+    "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/Rectangle%2025%20(1).png",
+    "days": [
+      {
+        "date": "2021-08-19",
+        "isActive": true,
+        "isCompleted": true
+      },
+      {
+        "date": "2021-08-17",
+        "isActive": true,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-18",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-19",
+        "isActive": false,
+        "isCompleted": true
+      },
+      {
+        "date": "2021-08-20",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-21",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-22",
+        "isActive": false,
+        "isCompleted": true
+      }
+    ],
+    "_id": "1",
+    "__v": 0
+  },
+  {
+    "title": "Task 2",
+    "reward": 5,
+    "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/Rectangle%2025%20(2).png",
+    "days": [
+      {
+        "date": "2021-08-16",
+        "isActive": true,
+        "isCompleted": true
+      },
+      {
+        "date": "2021-08-17",
+        "isActive": true,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-18",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-19",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-20",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-21",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-22",
+        "isActive": false,
+        "isCompleted": false
+      }
+    ],
+    "_id": "2",
+    "__v": 0
+  },
+  {
+    "title": "Task 3",
+    "reward": 15,
+    "imageUrl": "https://storage.googleapis.com/kidslikev2_bucket/Rectangle%2025%20(3).png",
+    "days": [
+      {
+        "date": "2021-08-19",
+        "isActive": true,
+        "isCompleted": true
+      },
+      {
+        "date": "2021-08-17",
+        "isActive": true,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-18",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-19",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-20",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-21",
+        "isActive": false,
+        "isCompleted": false
+      },
+      {
+        "date": "2021-08-22",
+        "isActive": false,
+        "isCompleted": false
+      }
+    ],
+    "_id": "3",
+    "__v": 0
+  }
+]

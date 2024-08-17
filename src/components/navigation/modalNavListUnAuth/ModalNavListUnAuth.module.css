@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+@media screen and (min-width: 580px) {
+  .container {
+    margin-top: 80px;
+  }
+}
+
+.nav__link_item {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  color: white;
+  padding-left: 30px;
+}
+
+.nav__link_item {
+  border-top: 1px solid white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.nav__link_item:nth-child(2n) {
+  border-bottom: 1px solid white;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.nav__link_item_active {
+  color: #000000;
+}

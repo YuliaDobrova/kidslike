@@ -1,0 +1,11 @@
+.AwardsTitleWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+/* theme switch  */
+
+.darkBg {
+  background-color: rgba(82, 82, 100, 0.541);
+}

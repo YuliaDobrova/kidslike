@@ -1,0 +1,141 @@
+.CongratsModal__Wrapper {
+  position: relative;
+  padding: 60px 20px 20px 20px;
+  width: 280px;
+  min-height: 300px;
+  background-color: white;
+  border-radius: 10px;
+  border: 3px dashed #ffbc33;
+}
+
+.CongratsModal__CatImage {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 130px;
+  height: 150px;
+  transform: translate(65%, -50%);
+}
+
+.CongratsModal__Title {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+  width: 240px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.CongratsModal__List {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.CongratsModal__ListItem {
+  width: 110px;
+  margin-bottom: 20px;
+}
+
+.CongratsModal__Image {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: 5px solid #ffbc33;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CongratsModal__Text {
+  margin-top: 5px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+
+@media screen and (min-width: 580px) {
+  .CongratsModal__Wrapper {
+    width: 602px;
+    padding: 100px 40px 40px 40px;
+  }
+  .CongratsModal__Title {
+    width: 504px;
+    height: 36px;
+    font-size: 30px;
+    line-height: 37px;
+    padding-bottom: 60px;
+  }
+  .CongratsModal__CatImage {
+    width: 200px;
+    height: 230px;
+    transform: translate(100%, -50%);
+  }
+  .CongratsModal__List {
+    justify-content: space-between;
+  }
+  .CongratsModal__ListItem {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.darkBg {
+  background-color: rgba(82, 82, 100, 0.541);
+}
+
+.themeDarkText {
+  color: #fff;
+}
+
+.darkCardBg {
+  background-color: rgba(184, 184, 211, 0.541);
+}
+
+.darkIconFill {
+  fill: #fff;
+}
+
+.darkModalBg {
+  background-color: rgb(82, 82, 100);
+}
+
+/* =============ERROR==================== */
+.Awards__Error {
+  position: absolute;
+  top: 35%;
+  left: 50px;
+  width: 180px;
+  text-align: center;
+}
+.Awards__ErrorName {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+@media screen and (min-width: 580px) {
+  .Awards__Error {
+    top: 45%;
+    left: 100px;
+    width: 400px;
+  }
+  .Awards__ErrorName {
+    font-size: 20px;
+  }
+}

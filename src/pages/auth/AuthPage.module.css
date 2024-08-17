@@ -1,0 +1,63 @@
+.container {
+  width: 100%;
+  padding-bottom: 156px;
+
+  background-image: url(./images/bg_1_mobile@1x.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
+.darkBg {
+  background-color: rgba(82, 82, 100, 0.541);
+}
+
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .container {
+    background-image: url(./images/bg_1_mobile@2x.jpg);
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .container {
+    padding-bottom: 262px;
+    background-image: url(./images/bg_2_tablet@1x.jpg),
+      url(./images/bg_3_tablet@1x.jpg), url(./images/bg_1_tablet@1x.jpg);
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: 278px bottom, right bottom, 0 bottom;
+    background-size: auto, auto, auto;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .container {
+    background-image: url(./images/bg_2_tablet@1x.jpg),
+      url(./images/bg_3_tablet@1x.jpg), url(./images/bg_1_tablet@1x.jpg);
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .container {
+    max-width: 1210px;
+    margin: 0 auto;
+    background-image: url(./images/bg_4_desktop@1x.png),
+      url(./images/bg_3_desktop@1x.png), url(./images/bg_2_desktop@1x.png),
+      url(./images/bg_1_desktop@1x.png);
+    filter: drop-shadow(4px 6px 15px rgba(0, 0, 0, 0.1));
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 270px 476px, 50px 348px, 270px 190px, 50px 20px;
+    background-size: auto, auto, auto, auto;
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .container {
+    background-image: url(./images/bg_4_desktop@2x.png)
+        url(./images/bg_3_desktop@2x.png),
+      url(./images/bg_2_desktop@2x.png), url(./images/bg_1_desktop@2x.png);
+  }
+}

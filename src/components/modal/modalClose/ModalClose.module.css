@@ -1,0 +1,30 @@
+.closeButton {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25px;
+  height: 25px;
+  padding: 2px;
+  right: 8px;
+  top: 8px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.closeIcon:hover {
+  fill: #000;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.closeIcon:hover {
+  fill: #ffbc33;
+}
+
+/* theme switch  */
+
+.darkIconFill {
+  fill: #000;
+}

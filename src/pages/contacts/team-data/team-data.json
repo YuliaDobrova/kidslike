@@ -1,0 +1,219 @@
+[
+  {
+    "name": "Denys Petrenko",
+    "id": "denis",
+    "position": "Team Lead",
+    "links": [
+      {
+        "name": "instagram",
+        "href": "https://www.instagram.com/",
+        "icon": "#icon-instagram"
+      },
+      {
+        "name": "github",
+        "href": "https://github.com/",
+        "icon": "#icon-github"
+      },
+      {
+        "name": "facebook",
+        "href": "https://www.facebook.com/",
+        "icon": "#icon-facebook"
+      },
+      {
+        "name": "linkedin",
+        "href": "https://www.linkedin.com/",
+        "icon": "#icon-linkedin"
+      }
+    ]
+  },
+  {
+    "name": "Sergei Bulynin",
+    "id": "serhii",
+    "position": "Scrum Master",
+    "links": [
+      {
+        "name": "instagram",
+        "href": "https://www.instagram.com/",
+        "icon": "#icon-instagram"
+      },
+      {
+        "name": "github",
+        "href": "https://github.com/",
+        "icon": "#icon-github"
+      },
+      {
+        "name": "facebook",
+        "href": "https://www.facebook.com/",
+        "icon": "#icon-facebook"
+      },
+      {
+        "name": "linkedin",
+        "href": "https://www.linkedin.com/",
+        "icon": "#icon-linkedin"
+      }
+    ]
+  },
+  {
+    "name": "Alina Akompi",
+    "id": "alina",
+    "position": "Front-End Developer",
+    "links": [
+      {
+        "name": "instagram",
+        "href": "https://www.instagram.com/",
+        "icon": "#icon-instagram"
+      },
+      {
+        "name": "github",
+        "href": "https://github.com/",
+        "icon": "#icon-github"
+      },
+      {
+        "name": "facebook",
+        "href": "https://www.facebook.com/",
+        "icon": "#icon-facebook"
+      },
+      {
+        "name": "linkedin",
+        "href": "https://www.linkedin.com/",
+        "icon": "#icon-linkedin"
+      }
+    ]
+  },
+  {
+    "name": "Iryna Kolesnyk",
+    "id": "iryna",
+    "position": "Front-End Developer",
+    "links": [
+      {
+        "name": "instagram",
+        "href": "https://www.instagram.com/",
+        "icon": "#icon-instagram"
+      },
+      {
+        "name": "github",
+        "href": "https://github.com/",
+        "icon": "#icon-github"
+      },
+      {
+        "name": "facebook",
+        "href": "https://www.facebook.com/",
+        "icon": "#icon-facebook"
+      },
+      {
+        "name": "linkedin",
+        "href": "https://www.linkedin.com/",
+        "icon": "#icon-linkedin"
+      }
+    ]
+  },
+
+  {
+    "name": "Yulia Dobrova",
+    "id": "julia",
+    "position": "Front-End Developer",
+    "links": [
+      {
+        "name": "instagram",
+        "href": "https://www.instagram.com/julie_dobrova/",
+        "icon": "#icon-instagram"
+      },
+      {
+        "name": "github",
+        "href": "https://github.com/YuliaDobrova",
+        "icon": "#icon-github"
+      },
+      {
+        "name": "facebook",
+        "href": "https://www.facebook.com/profile.php?id=100011297070190",
+        "icon": "#icon-facebook"
+      },
+      {
+        "name": "linkedin",
+        "href": "https://www.linkedin.com/in/yulia-dobrova-37a335217/",
+        "icon": "#icon-linkedin"
+      }
+    ]
+  },
+  {
+    "name": "Natalia Polovynko",
+    "id": "natalia",
+    "position": "Front-End Developer",
+    "links": [
+      {
+        "name": "instagram",
+        "href": "https://www.instagram.com/",
+        "icon": "#icon-instagram"
+      },
+      {
+        "name": "github",
+        "href": "https://github.com/",
+        "icon": "#icon-github"
+      },
+      {
+        "name": "facebook",
+        "href": "https://www.facebook.com/",
+        "icon": "#icon-facebook"
+      },
+      {
+        "name": "linkedin",
+        "href": "https://www.linkedin.com/",
+        "icon": "#icon-linkedin"
+      }
+    ]
+  },
+  {
+    "name": "Anton Sharudylo",
+    "id": "anton",
+    "position": "Front-End Developer",
+    "links": [
+      {
+        "name": "instagram",
+        "href": "https://www.instagram.com/",
+        "icon": "#icon-instagram"
+      },
+      {
+        "name": "github",
+        "href": "https://github.com/",
+        "icon": "#icon-github"
+      },
+      {
+        "name": "facebook",
+        "href": "https://www.facebook.com/",
+        "icon": "#icon-facebook"
+      },
+      {
+        "name": "linkedin",
+        "href": "https://www.linkedin.com/",
+        "icon": "#icon-linkedin"
+      }
+    ]
+  },
+  {
+    "name": "Vladislav Bochkovsky",
+    "id": "vlad",
+    "position": "Front-End Developer",
+    "links": [
+      {
+        "name": "instagram",
+        "href": "https://www.instagram.com/",
+        "icon": "#icon-instagram"
+      },
+      {
+        "name": "github",
+        "href": "https://github.com/",
+        "icon": "#icon-github"
+      },
+      {
+        "name": "facebook",
+        "href": "https://www.facebook.com/",
+        "icon": "#icon-facebook"
+      },
+      {
+        "name": "linkedin",
+        "href": "https://www.linkedin.com/",
+        "icon": "#icon-linkedin"
+      }
+    ]
+  }
+]

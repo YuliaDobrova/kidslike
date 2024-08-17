@@ -1,0 +1,50 @@
+.tabsTasksTitle {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+  color: #a6abb9;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+.tabsTasksText {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.2em;
+  color: #000000;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .tabsTasksInfo {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .tabsTasksTitle {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .tabsTasksInfo {
+    justify-content: start;
+    margin-top: 0;
+  }
+
+  .tabsTasksTitle {
+    margin-bottom: 10px;
+    text-align: end;
+  }
+}
+
+.themeDarkText {
+  color: #fff;
+}

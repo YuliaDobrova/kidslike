@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  color: #000000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: 0.08em;
+}
+
+.icon__svg {
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+.themeDarkText {
+  color: #fff;
+}

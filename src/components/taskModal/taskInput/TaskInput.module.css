@@ -1,0 +1,41 @@
+.inputLabel {
+  position: relative;
+  margin-bottom: 10px;
+  width: 218px;
+  cursor: pointer;
+}
+
+.taskInput {
+  padding-left: 26px;
+  width: 100%;
+  height: 28px;
+
+  font-size: 14px;
+
+  font-style: italic;
+  color: #ffffff;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #fff;
+}
+
+.hasError {
+  border-bottom: 1px solid red;
+}
+
+::placeholder {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+}
+
+.modalTaskIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+}

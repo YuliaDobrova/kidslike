@@ -1,0 +1,52 @@
+.user__name_container {
+  display: flex;
+  align-items: center;
+  height: 26px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.upp__letter {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #2196f3;
+  margin-right: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.letter {
+  text-align: center;
+  margin-top: 3px;
+  color: white;
+}
+
+.user__name {
+  font-size: 12px;
+  font-family: 700;
+  width: 85px;
+  padding-right: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.user__logout_btn {
+  float: right;
+  border: none;
+  width: 18px;
+  height: 18px;
+  background-color: transparent;
+  margin-left: 15px;
+  color: white;
+  padding-left: 15px;
+  border-left: 1px solid white;
+  cursor: pointer;
+}
+
+.svg {
+  fill: white;
+  width: 18px;
+  height: 18px;
+}

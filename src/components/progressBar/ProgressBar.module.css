@@ -1,0 +1,83 @@
+.progressBarContainer {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f1f1f1;
+}
+
+.currentPointsTitle,
+.commonPointsTitle {
+  margin-bottom: 2px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+  color: #a6abb9;
+}
+
+.hideTitle,
+.commonPointsTitle,
+.points {
+  display: none;
+}
+
+.progressContainer {
+  display: flex;
+  align-items: center;
+}
+
+.commonPoints {
+  margin-right: 20px;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2em;
+}
+
+.currentPoints {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.2em;
+}
+
+@media screen and (min-width: 580px) {
+  .progressBarContainer {
+    text-align: center;
+    background-color: transparent;
+  }
+  .currentPointsTitle,
+  .commonPointsTitle {
+    margin-bottom: 10px;
+  }
+
+  .hideTitle,
+  .commonPointsTitle,
+  .points {
+    display: inline-block;
+  }
+
+  .points {
+    margin-left: 14px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.2em;
+    color: #000;
+  }
+
+  .progressContainer {
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .progressBarContainer {
+    text-align: end;
+  }
+
+  .progressContainer {
+    justify-content: flex-end;
+  }
+}
+
+.themeDarkText {
+  color: #fff;
+}

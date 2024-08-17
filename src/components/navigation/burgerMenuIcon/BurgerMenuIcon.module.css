@@ -1,0 +1,15 @@
+.svg {
+  width: 22px;
+  height: 14px;
+  fill: #858598;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.user__name {
+  font-size: 12px;
+  font-family: 700;
+  color: white;
+  border-right: 1px solid #858598;
+  padding-right: 15px;
+}

@@ -1,0 +1,184 @@
+.cardItem {
+  position: relative;
+  box-sizing: border-box;
+  width: 280px;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+}
+.cardImg {
+  width: 280px;
+  height: 194px;
+  object-fit: cover;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+.cardItem:hover,
+.cardItem:focus {
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cardName {
+  margin-bottom: 4px;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 1.25;
+
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+
+.cardReward {
+  display: inline-block;
+  background-color: #5679d7;
+  padding: 3px 10px 3px 10px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  border-radius: 3px;
+
+  color: #ffffff;
+}
+
+.cadrFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 20px 17px 20px;
+  background: #ffbc33;
+  border-radius: 0px 0px 6px 6px;
+}
+
+/* Button and iconButton */
+
+.buttonOk {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  padding: 0;
+  border-radius: 50%;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 250ms linear;
+  cursor: pointer;
+}
+.buttonOk:hover,
+.buttonOk:focus {
+  transform: scale(1.1);
+}
+
+.okIcon {
+  fill: #8ec63f;
+}
+
+.buttonPluse {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  padding: 0;
+  border-radius: 50%;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 250ms linear;
+  cursor: pointer;
+}
+
+.buttonPluse:hover,
+.buttonPluse:focus {
+  transform: scale(1.1);
+}
+
+.plusIcon {
+  fill: #8ec63f;
+}
+
+/* Checkbox */
+
+.daysCheckbox {
+  position: absolute;
+  bottom: 71px;
+  right: 1px;
+  justify-content: space-between;
+  text-align: center;
+  padding: 13px 35px 9px 33px;
+  border-radius: 6px;
+  background-color: #3e7adc;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.daysCheckboxItem:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.checkboxLabel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.checkboxInput {
+  margin-right: 10px;
+}
+
+/* create list habits text*/
+
+.createListHabits {
+  text-align: center;
+  font-size: 40px;
+}
+
+@media screen and (max-width: 579px) {
+  .cardItem:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 580px) {
+  .cartContainer {
+    min-height: 524px;
+  }
+  .cardList {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+  .cardItem {
+    margin: 10px;
+    width: calc((100% - 50px) / 2);
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .cardItem {
+    width: calc((100% - 90px) / 4);
+  }
+}
+
+/* theme switch  */
+
+.darkBg {
+  background-color: rgba(82, 82, 100, 0.541);
+}
+
+.themeDarkText {
+  color: #fff;
+}
+
+.darkCardBg {
+  background-color: rgba(184, 184, 211, 0.541);
+}
+
+.darkIconFill {
+  fill: #fff;
+}

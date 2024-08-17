@@ -1,0 +1,188 @@
+.container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.row {
+  width: 280px;
+}
+
+.authTitle {
+  font-weight: 600;
+  font-size: 18px;
+  text-align: center;
+
+  color: #000000;
+  margin-bottom: 40px;
+}
+
+.authText {
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+
+  color: #858598;
+  margin-bottom: 20px;
+}
+
+.formLabel {
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.04em;
+
+  color: #858598;
+  margin-bottom: 10px;
+}
+
+.formInput {
+  font-size: 14px;
+  letter-spacing: 0.04em;
+
+  color: #000000;
+  background-color: #f6f7fb;
+  border: none;
+  border-top: 2px solid rgba(133, 133, 152, 0.3);
+  padding: 12px 10px;
+  margin-bottom: 22px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.googleBtn {
+  margin-bottom: 30px;
+}
+
+.inputFeedback {
+  font-size: 10px;
+  letter-spacing: 0.04em;
+
+  color: #eb5757;
+  margin-bottom: 10px;
+}
+
+.wrapperButton {
+  display: flex;
+}
+.authButton {
+  cursor: pointer;
+  width: 135px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  letter-spacing: 0.02em;
+
+  color: #fafafa;
+  background: #ffbc33;
+  border-radius: 6px;
+  border: none;
+}
+
+.authButton:not(:last-child) {
+  margin-right: 10px;
+}
+
+.authButton:hover,
+.authButton:focus {
+  transform: scale(1.05);
+}
+
+.googleLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+
+  color: #000000;
+  cursor: pointer;
+  width: 150px;
+  height: 42px;
+  background: #f6f7fb;
+  border-radius: 6px;
+  filter: drop-shadow(0px 2px 4px rgba(0, 0, 0, 0.15));
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.googleIcon {
+  margin-right: 10px;
+}
+
+.themeDarkText {
+  color: #fff;
+}
+
+.darkCardBg {
+  background-color: rgba(184, 184, 211, 0.541);
+}
+
+@media screen and (min-width: 580px) {
+  .container {
+    padding-left: 40px;
+    padding-top: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .row {
+    width: 372px;
+  }
+  .authTitle {
+    font-size: 28px;
+    line-height: 1.21;
+  }
+  .authForm {
+    width: 400px;
+    padding: 40px;
+    background: #ffffff;
+
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+  }
+  .formInput {
+    width: 320px;
+    margin-bottom: 20px;
+  }
+  .authButton {
+    width: 154px;
+    height: 48px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+    padding-bottom: 70px;
+  }
+  .authTitle {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1.24;
+    text-align: start;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .row {
+    width: 398px;
+    margin-right: 48px;
+  }
+  .authText {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .authForm {
+    width: 404px;
+  }
+}
